@@ -16,7 +16,6 @@ import { NzSpinModule } from 'ng-zorro-antd/spin';
 import { NzImageModule } from 'ng-zorro-antd/image';
 
 import { SafePipe } from './pipes/safe.pipe';
-import { NzDatePickerModule } from 'ng-zorro-antd/date-picker';
 
 
 
@@ -45,7 +44,6 @@ import { NzDatePickerModule } from 'ng-zorro-antd/date-picker';
     NzCardModule,
     NzSpinModule,
     NzImageModule,
-    NzDatePickerModule
   ],
   providers: [
   ],
