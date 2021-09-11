@@ -2,6 +2,10 @@
   padding: 20px 40px;
   position: relative;
 
+  @media screen and (max-width: 425px) {
+    padding: 20px 10px;
+  }
+
   &__loader {
     height: 100vh;
     width: 100%;
@@ -23,10 +27,7 @@
   &__card {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    // grid-row-gap: 50px;
     cursor: pointer;
-    // display: flex;
-    // flex-wrap: wrap;
   }
 }
 
